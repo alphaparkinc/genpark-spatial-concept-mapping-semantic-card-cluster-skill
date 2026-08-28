@@ -1,0 +1,38 @@
+{
+  "name": "genpark-spatial-concept-mapping-semantic-card-cluster-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Spatial concept mapping card cluster manager organizing multi-modal knowledge nodes with automatic thematic grouping.",
+  "author": "genpark",
+  "category": "knowledge-mapping",
+  "tags": [
+    "product-hunt",
+    "heptabase",
+    "spatial-canvas",
+    "concept-mapping",
+    "semantic-clustering"
+  ],
+  "inputs": {
+    "raw_notes_count": {
+      "type": "integer"
+    },
+    "spatial_canvas_id": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "canvas_session_id": {
+      "type": "string"
+    },
+    "cards_clustered_count": {
+      "type": "integer"
+    },
+    "semantic_edge_links_created": {
+      "type": "integer"
+    },
+    "whiteboard_export_json_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
